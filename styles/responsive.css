@@ -2,27 +2,24 @@
 
 @media screen and (max-width: 600px) {
     nav{
-        flex-direction: column;
-       
+        flex-direction: column;     
     }
 
-    nav ul{
+    nav ul 
+    {
         flex-direction: column;
         margin: 20px auto;
         gap: 20px;
-        
-
     }
 
     .banner-section{
         padding-top: 30px;
+        border-radius: 20px;
     }
     
     .banner-section p{
         margin: 0px 70px;
-        padding: ;
-        
-        
+              
     }
 
     .banner-text {
@@ -35,6 +32,24 @@
     .input-btn, .search-btn{
         padding: 10px;
     }
+  header{
+    margin: 50px 30px;
+    
+  }
 
+  .tour-container{
+    flex-direction: column;
+    margin: 0 40px;
+  }
+
+  .tour-section{
+    margin: 20px 20px;
+  }
+
+  .image-area img{
+   max-width: 490px;
+   margin: 0 auto;
+   
+}
 
 }

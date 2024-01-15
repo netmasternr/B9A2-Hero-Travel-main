@@ -10,17 +10,26 @@
 
 }
 
-/* header and nav start */
-
-
-/* shared-styles */
+ /* shared-styles */
 
 .primary-color{
     color: #FF5400;
     font-weight: 800;
-    
+}
+
+.btn-parimary{
+    border-radius: 8px;
+    background: #FF5400;
+    color: white;
+    border: 0;
+    margin-top: 20px;
+    width: 174px;
+    height: 52px;
 
 }
+
+/* header and nav start */
+
 
 header{
     max-width: 1170px;
@@ -124,6 +133,60 @@ nav  li a{
     border-radius: 8px;
     background: #FF5400;
     
+}
+
+
+/* main section, popular tour start */
+
+.tour-section{
+    max-width: 1170px;
+    margin: 100px auto ;
+    
+}
+
+.tour-container{
+    display: flex;   
+    gap: 60px;
+    
 
 }
 
+.text-area h2{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+
+}
+
+.text-area p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 24px auto;
+
+   
+}
+
+.text-area ul{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 35px auto;
+
+}
+
+.text-area li{
+    margin: 35px auto;
+}
+
+.text-area h1{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 35px auto;
+}
+
+.image-area img{
+    width: 540px;
+
+}
