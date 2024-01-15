@@ -1,0 +1,40 @@
+/* responsive-for small device */
+
+@media screen and (max-width: 600px) {
+    nav{
+        flex-direction: column;
+       
+    }
+
+    nav ul{
+        flex-direction: column;
+        margin: 20px auto;
+        gap: 20px;
+        
+
+    }
+
+    .banner-section{
+        padding-top: 30px;
+    }
+    
+    .banner-section p{
+        margin: 0px 70px;
+        padding: ;
+        
+        
+    }
+
+    .banner-text {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 10px 90px
+       
+    }
+
+    .input-btn, .search-btn{
+        padding: 10px;
+    }
+
+
+}
