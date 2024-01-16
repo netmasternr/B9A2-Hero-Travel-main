@@ -197,6 +197,18 @@ nav  li a{
 }
 
 
+/* special-section start */
+
+
+
+
+
+
+
+
+/* special-section end */
+
+
 /* why choose use start */
 
 .choose-us-text{
@@ -275,9 +287,6 @@ nav  li a{
     padding: 10px 0;
 }
 
-
-
-
 /* why choose use end */
 
 /* news letter section start */
@@ -311,7 +320,7 @@ nav  li a{
     border-radius: 16px;
     border: 1px solid #FF5400;
     margin: 0 30px;  
-    width: 390px;
+    /* width: 390px; */
     padding: 50px 50px;
 
 }
@@ -365,6 +374,27 @@ width: 100%;
 }
 
 
+/* special section */
+
+
+.special-section{   
+    text-align: center;
+    margin: 100px auto;
+    
+}
+
+.special-section p{
+    color: #131318a9;
+    font-size: 2.5rem;
+    font-weight: 100;
+    
+
+}
+
+.banner-image img{
+    max-width: 1170px;
+    width: 80%;
+}
 
 
 /* footer- section start */

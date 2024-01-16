@@ -129,6 +129,14 @@ footer{
     margin: 20px auto;
 }
 
+.choose-us-text > p{
+    width: 95%;
+}
 
+/* special-section */
+
+.special-section p {
+    font-size: 2rem;
+}
 
 }
