@@ -1,10 +1,6 @@
 /* responsive-for small device */
 
 @media screen and (max-width: 600px) {
-    nav{
-        /* flex-direction: column;      */
-    }
-
     nav ul 
     {
         /* flex-direction: column;
@@ -22,16 +18,25 @@
         padding-top: 30px;
         border-radius: 20px;
     }
+
+    .banner-section h2{
+        font-size: 2rem;
+       
+    }
     
     .banner-section p{
         margin: 0px 70px;
+        font-size: .8rem;
+        
               
     }
 
     .banner-text {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin: 10px 90px
+        margin: 10px 90px;
+        width: auto;
+        height: auto;
        
     }
 
@@ -127,14 +132,20 @@ footer{
     margin: 20px auto;
 }
 
+.choose-us-text > h2{
+    font-size: 1.8rem;
+}
+
 .choose-us-text > p{
-    width: 95%;
+    width: 100%;
+    font-size: .8rem;
 }
 
 /* special-section */
 
 .special-section p {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    width: 100%;
 }
 
 
